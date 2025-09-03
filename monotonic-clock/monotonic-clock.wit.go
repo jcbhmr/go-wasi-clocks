@@ -2,7 +2,7 @@
 
 //go:build wasip2
 
-// Package monotonicclock represents the imported interface "wasi:clocks/monotonic-clock@0.2.0".
+// Package monotonicclock represents the imported interface "wasi:clocks/monotonic-clock@0.2.1".
 //
 // WASI Monotonic Clock is a clock API intended to let users measure elapsed
 // time.
@@ -12,8 +12,6 @@
 //
 // A monotonic clock is a clock which has an unspecified initial value, and
 // successive reads of the clock will produce non-decreasing values.
-//
-// It is intended for measuring elapsed time.
 package monotonicclock
 
 import (
@@ -21,12 +19,12 @@ import (
 	"go.bytecodealliance.org/cm"
 )
 
-// Pollable represents the imported type alias "wasi:clocks/monotonic-clock@0.2.0#pollable".
+// Pollable represents the imported type alias "wasi:clocks/monotonic-clock@0.2.1#pollable".
 //
 // See [poll.Pollable] for more information.
 type Pollable = poll.Pollable
 
-// Instant represents the u64 "wasi:clocks/monotonic-clock@0.2.0#instant".
+// Instant represents the u64 "wasi:clocks/monotonic-clock@0.2.1#instant".
 //
 // An instant in time, in nanoseconds. An instant is relative to an
 // unspecified initial value, and can only be compared to instances from
@@ -35,7 +33,7 @@ type Pollable = poll.Pollable
 //	type instant = u64
 type Instant uint64
 
-// Duration represents the u64 "wasi:clocks/monotonic-clock@0.2.0#duration".
+// Duration represents the u64 "wasi:clocks/monotonic-clock@0.2.1#duration".
 //
 // A duration of time, in nanoseconds.
 //
@@ -75,7 +73,7 @@ func Resolution() (result Duration) {
 // SubscribeInstant represents the imported function "subscribe-instant".
 //
 // Create a `pollable` which will resolve once the specified instant
-// occured.
+// has occurred.
 //
 //	subscribe-instant: func(when: instant) -> pollable
 //
@@ -89,9 +87,8 @@ func SubscribeInstant(when Instant) (result Pollable) {
 
 // SubscribeDuration represents the imported function "subscribe-duration".
 //
-// Create a `pollable` which will resolve once the given duration has
-// elapsed, starting at the time at which this function was called.
-// occured.
+// Create a `pollable` that will resolve after the specified duration has
+// elapsed from the time this function is invoked.
 //
 //	subscribe-duration: func(when: duration) -> pollable
 //
