@@ -4,20 +4,20 @@
 
 package monotonicclock
 
-// This file contains wasmimport and wasmexport declarations for "wasi:clocks@0.2.6".
+// This file contains wasmimport and wasmexport declarations for "wasi:clocks@0.2.7".
 
-//go:wasmimport wasi:clocks/monotonic-clock@0.2.6 now
+//go:wasmimport wasi:clocks/monotonic-clock@0.2.7 now
 //go:noescape
 func wasmimport_Now() (result0 uint64)
 
-//go:wasmimport wasi:clocks/monotonic-clock@0.2.6 resolution
+//go:wasmimport wasi:clocks/monotonic-clock@0.2.7 resolution
 //go:noescape
 func wasmimport_Resolution() (result0 uint64)
 
-//go:wasmimport wasi:clocks/monotonic-clock@0.2.6 subscribe-instant
+//go:wasmimport wasi:clocks/monotonic-clock@0.2.7 subscribe-instant
 //go:noescape
 func wasmimport_SubscribeInstant(when0 uint64) (result0 uint32)
 
-//go:wasmimport wasi:clocks/monotonic-clock@0.2.6 subscribe-duration
+//go:wasmimport wasi:clocks/monotonic-clock@0.2.7 subscribe-duration
 //go:noescape
 func wasmimport_SubscribeDuration(when0 uint64) (result0 uint32)

@@ -4,12 +4,12 @@
 
 package timezone
 
-// This file contains wasmimport and wasmexport declarations for "wasi:clocks@0.2.6".
+// This file contains wasmimport and wasmexport declarations for "wasi:clocks@0.2.7".
 
-//go:wasmimport wasi:clocks/timezone@0.2.6 display
+//go:wasmimport wasi:clocks/timezone@0.2.7 display
 //go:noescape
 func wasmimport_Display(when0 uint64, when1 uint32, result *TimezoneDisplay)
 
-//go:wasmimport wasi:clocks/timezone@0.2.6 utc-offset
+//go:wasmimport wasi:clocks/timezone@0.2.7 utc-offset
 //go:noescape
 func wasmimport_UtcOffset(when0 uint64, when1 uint32) (result0 uint32)

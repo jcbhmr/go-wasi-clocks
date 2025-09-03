@@ -2,7 +2,7 @@
 
 //go:build wasip2
 
-// Package monotonicclock represents the imported interface "wasi:clocks/monotonic-clock@0.2.6".
+// Package monotonicclock represents the imported interface "wasi:clocks/monotonic-clock@0.2.7".
 //
 // WASI Monotonic Clock is a clock API intended to let users measure elapsed
 // time.
@@ -19,12 +19,12 @@ import (
 	"go.bytecodealliance.org/cm"
 )
 
-// Pollable represents the imported type alias "wasi:clocks/monotonic-clock@0.2.6#pollable".
+// Pollable represents the imported type alias "wasi:clocks/monotonic-clock@0.2.7#pollable".
 //
 // See [poll.Pollable] for more information.
 type Pollable = poll.Pollable
 
-// Instant represents the u64 "wasi:clocks/monotonic-clock@0.2.6#instant".
+// Instant represents the u64 "wasi:clocks/monotonic-clock@0.2.7#instant".
 //
 // An instant in time, in nanoseconds. An instant is relative to an
 // unspecified initial value, and can only be compared to instances from
@@ -33,7 +33,7 @@ type Pollable = poll.Pollable
 //	type instant = u64
 type Instant uint64
 
-// Duration represents the u64 "wasi:clocks/monotonic-clock@0.2.6#duration".
+// Duration represents the u64 "wasi:clocks/monotonic-clock@0.2.7#duration".
 //
 // A duration of time, in nanoseconds.
 //
