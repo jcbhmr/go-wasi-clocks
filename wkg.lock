@@ -7,6 +7,6 @@ name = "wasi:clocks"
 registry = "wasi.dev"
 
 [[packages.versions]]
-requirement = "=0.2.1"
-version = "0.2.1"
-digest = "sha256:3b1b3c8e94989878b77aaa11b2854162db3ad1e03917d3783467388d5bc39bcd"
+requirement = "=0.2.2"
+version = "0.2.2"
+digest = "sha256:ed3e88c85ef2d23d51be35e794e24d5b65567c3ce299596673b9b17aa75f63f6"
