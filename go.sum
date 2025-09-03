@@ -13,6 +13,8 @@ github.com/jcbhmr/go-wasi-io v0.2.4 h1:7hCnPVk2EZxhSj9rqrRtFIX8GrHnQX8AauMLsFKCY
 github.com/jcbhmr/go-wasi-io v0.2.4/go.mod h1:3q+Jl/Q2XP/c/4GPGFjrL8O0N+omVYFxBJpWF4QTimI=
 github.com/jcbhmr/go-wasi-io v0.2.5 h1:lru5ChV+aMX3aPraQSAPt8YgTvs3i/V5sgIoAPEvofg=
 github.com/jcbhmr/go-wasi-io v0.2.5/go.mod h1:3q+Jl/Q2XP/c/4GPGFjrL8O0N+omVYFxBJpWF4QTimI=
+github.com/jcbhmr/go-wasi-io v0.2.6 h1:ExQzaF/jz6ngsO5gmCoiuo+MQRqKIWQOlXvmuwfumUI=
+github.com/jcbhmr/go-wasi-io v0.2.6/go.mod h1:3q+Jl/Q2XP/c/4GPGFjrL8O0N+omVYFxBJpWF4QTimI=
 github.com/klauspost/compress v1.18.0 h1:c/Cqfb0r+Yi+JtIEq73FWXVkRonBlf0CRNYc8Zttxdo=
 github.com/klauspost/compress v1.18.0/go.mod h1:2Pp+KzxcywXVXMr50+X0Q/Lsb43OQHYWRCY2AiWywWQ=
 github.com/olareg/olareg v0.1.2 h1:75G8X6E9FUlzL/CSjgFcYfMgNzlc7CxULpUUNsZBIvI=

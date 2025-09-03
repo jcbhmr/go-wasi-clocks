@@ -2,7 +2,7 @@
 
 //go:build wasip2
 
-// Package timezone represents the imported interface "wasi:clocks/timezone@0.2.5".
+// Package timezone represents the imported interface "wasi:clocks/timezone@0.2.6".
 package timezone
 
 import (
@@ -10,12 +10,12 @@ import (
 	"go.bytecodealliance.org/cm"
 )
 
-// DateTime represents the type alias "wasi:clocks/timezone@0.2.5#datetime".
+// DateTime represents the type alias "wasi:clocks/timezone@0.2.6#datetime".
 //
 // See [wallclock.DateTime] for more information.
 type DateTime = wallclock.DateTime
 
-// TimezoneDisplay represents the record "wasi:clocks/timezone@0.2.5#timezone-display".
+// TimezoneDisplay represents the record "wasi:clocks/timezone@0.2.6#timezone-display".
 //
 // Information useful for displaying the timezone of a specific `datetime`.
 //
