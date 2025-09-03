@@ -8,7 +8,7 @@ tool (
 )
 
 require (
-	github.com/jcbhmr/go-wasi-io v0.2.2
+	github.com/jcbhmr/go-wasi-io v0.2.3
 	go.bytecodealliance.org/cm v0.3.0
 )
 
