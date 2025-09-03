@@ -1,5 +1,5 @@
-package jcbhmr:go-wasi-clocks@0.2.3;
+package jcbhmr:go-wasi-clocks@0.2.4;
 
 world go-wasi-clocks {
-    include wasi:clocks/imports@0.2.3;
+    include wasi:clocks/imports@0.2.4;
 }

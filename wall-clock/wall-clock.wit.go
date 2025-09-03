@@ -2,7 +2,7 @@
 
 //go:build wasip2
 
-// Package wallclock represents the imported interface "wasi:clocks/wall-clock@0.2.3".
+// Package wallclock represents the imported interface "wasi:clocks/wall-clock@0.2.4".
 //
 // WASI Wall Clock is a clock API intended to let users query the current
 // time. The name "wall" makes an analogy to a "clock on the wall", which
@@ -24,7 +24,7 @@ import (
 	"go.bytecodealliance.org/cm"
 )
 
-// DateTime represents the record "wasi:clocks/wall-clock@0.2.3#datetime".
+// DateTime represents the record "wasi:clocks/wall-clock@0.2.4#datetime".
 //
 // A time and date in seconds plus nanoseconds.
 //
