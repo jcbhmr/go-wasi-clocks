@@ -17,7 +17,7 @@
 package monotonicclock
 
 import (
-	"github.com/jcbhmr/go-wasi-clocks/.out/bindings/wasi/io/poll"
+	"github.com/jcbhmr/go-wasi-io/poll"
 	"go.bytecodealliance.org/cm"
 )
 
